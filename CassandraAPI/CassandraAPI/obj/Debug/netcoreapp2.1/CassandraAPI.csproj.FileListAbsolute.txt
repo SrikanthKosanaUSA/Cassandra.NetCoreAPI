@@ -1,0 +1,14 @@
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.deps.json
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.runtimeconfig.json
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.runtimeconfig.dev.json
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.dll
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.csprojAssemblyReference.cache
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.csproj.CoreCompileInputs.cache
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorAssemblyInfo.cache
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorAssemblyInfo.cs
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.AssemblyInfoInputs.cache
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.AssemblyInfo.cs
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.pdb
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.dll
+C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.pdb
