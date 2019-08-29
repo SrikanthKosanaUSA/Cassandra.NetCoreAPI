@@ -11878,11 +11878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Srikanth\\source\\repos\\CassandraAPI\\CassandraAPI\\CassandraAPI.csproj",
+      "projectUniqueName": "E:\\GitHub projects\\Cassandra.NetCoreAPI\\CassandraAPI\\CassandraAPI\\CassandraAPI.csproj",
       "projectName": "CassandraAPI",
-      "projectPath": "C:\\Users\\Srikanth\\source\\repos\\CassandraAPI\\CassandraAPI\\CassandraAPI.csproj",
+      "projectPath": "E:\\GitHub projects\\Cassandra.NetCoreAPI\\CassandraAPI\\CassandraAPI\\CassandraAPI.csproj",
       "packagesPath": "C:\\Users\\Srikanth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Srikanth\\source\\repos\\CassandraAPI\\CassandraAPI\\obj\\",
+      "outputPath": "E:\\GitHub projects\\Cassandra.NetCoreAPI\\CassandraAPI\\CassandraAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

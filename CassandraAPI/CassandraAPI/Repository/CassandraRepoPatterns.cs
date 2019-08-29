@@ -9,18 +9,48 @@ namespace CassandraAPI.Repository
 {
     public class CassandraRepoPatterns
     {
-
-        public Student GetStudents(CassandraConfiguration config)
+        private readonly CassandraConfiguration _config;
+        public CassandraRepoPatterns(CassandraConfiguration config)
         {
-            using (var cassandraDA = new CassandraDA(config))
+            _config = config;
+        }
+
+        public IEnumerable<Student> GetStudents()
+        {
+            using (var cassandraDA = new CassandraDA(_config))
             {
                 var session = cassandraDA.GetSession();
                 IMapper mapper = new Mapper(session);
 
-                var student = mapper.Single<Student>("Select * From tblStudent where id = 3;");
-                return student;
+                var students = mapper.Fetch<Student>("Select * From tblStudent;");
+                return students;
             }
                
+        }
+
+        public Student GetStudentById(int Id)
+        {
+            using (var cassandraDA = new CassandraDA(_config))
+            {
+                var session = cassandraDA.GetSession();
+                IMapper mapper = new Mapper(session);
+
+                var student = mapper.SingleOrDefault<Student>("Select * From tblStudent Where Id = ?;", Id);
+                return student;
+            }
+        }
+
+        public void NewStudent(Student student)
+        {
+            using (var cassandraDA = new CassandraDA(_config))
+            {
+                var session = cassandraDA.GetSession();
+                IMapper mapper = new Mapper(session);
+
+
+                mapper.Execute("Insert into tblstudent(Id, Name, Email, Phone) Values(?,?,?,?)", student.Id, student.Name, student.Email, student.Phone);
+                
+            }
         }
     }
 }

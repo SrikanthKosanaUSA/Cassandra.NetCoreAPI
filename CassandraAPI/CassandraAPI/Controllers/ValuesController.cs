@@ -20,24 +20,29 @@ namespace CassandraAPI.Controllers
         }
         // GET api/values
         [HttpGet]
-        public Student Get()
+        public IEnumerable<Student> Get()
         {
-            CassandraRepoPatterns repo = new CassandraRepoPatterns();
-            var student = repo.GetStudents(config);
-            return student;
+            CassandraRepoPatterns repo = new CassandraRepoPatterns(config);
+            var students = repo.GetStudents();
+            return students;
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<Student> Get(int id)
         {
-            return "value";
+            CassandraRepoPatterns repo = new CassandraRepoPatterns(config);
+            var student = repo.GetStudentById(id);
+            return student;
+            //return "value";
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post(Student student)
         {
+            CassandraRepoPatterns repo = new CassandraRepoPatterns(config);
+            repo.NewStudent(student);
         }
 
         // PUT api/values/5

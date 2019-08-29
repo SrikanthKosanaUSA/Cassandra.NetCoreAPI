@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CassandraAPI.Models
 {
-   // [TableName("tblStudent")]
+   [TableName("tblStudent")]
     public class Student
     {
         public int Id { get; set; }
