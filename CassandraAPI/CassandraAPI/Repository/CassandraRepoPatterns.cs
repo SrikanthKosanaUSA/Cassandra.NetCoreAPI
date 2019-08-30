@@ -1,4 +1,5 @@
-﻿using Cassandra.Mapping;
+﻿using Cassandra;
+using Cassandra.Mapping;
 using CassandraAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -50,6 +51,29 @@ namespace CassandraAPI.Repository
 
                 mapper.Execute("Insert into tblstudent(Id, Name, Email, Phone) Values(?,?,?,?)", student.Id, student.Name, student.Email, student.Phone);
                 
+            }
+        }
+
+        public void ChangeDetails(Student student)
+        {
+            using (var cassandraDA = new CassandraDA(_config))
+            {
+                var session = cassandraDA.GetSession();
+                IMapper mapper = new Mapper(session);
+
+                mapper.Execute(" Update tblStudent SET Name = ?, Email = ?, Phone = ? where Id = ?;", student.Name, student.Email, student.Phone, student.Id);
+
+            }
+        }
+
+        public void RemoveStudent(int Id)
+        {
+            using (var cassandraDA = new CassandraDA(_config))
+            {
+                var session = cassandraDA.GetSession();
+                IMapper mapper = new Mapper(session);
+
+                mapper.Execute("Delete From tblStudent Where Id = ?", Id);
             }
         }
     }

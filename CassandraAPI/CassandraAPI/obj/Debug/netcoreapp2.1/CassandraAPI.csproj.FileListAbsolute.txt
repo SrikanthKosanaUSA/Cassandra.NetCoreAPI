@@ -12,3 +12,17 @@ C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1
 C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.pdb
 C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.dll
 C:\Users\Srikanth\source\repos\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.pdb
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.deps.json
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.runtimeconfig.json
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.runtimeconfig.dev.json
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.dll
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\bin\Debug\netcoreapp2.1\CassandraAPI.pdb
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.csprojAssemblyReference.cache
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.csproj.CoreCompileInputs.cache
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorAssemblyInfo.cache
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorAssemblyInfo.cs
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.AssemblyInfoInputs.cache
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.AssemblyInfo.cs
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.RazorTargetAssemblyInfo.cache
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.dll
+E:\GitHub projects\Cassandra.NetCoreAPI\CassandraAPI\CassandraAPI\obj\Debug\netcoreapp2.1\CassandraAPI.pdb

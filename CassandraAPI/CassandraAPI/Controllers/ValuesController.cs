@@ -45,16 +45,20 @@ namespace CassandraAPI.Controllers
             repo.NewStudent(student);
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/values
+        [HttpPut]
+        public void Put(Student student)
         {
+            CassandraRepoPatterns repo = new CassandraRepoPatterns(config);
+            repo.ChangeDetails(student);
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            CassandraRepoPatterns repo = new CassandraRepoPatterns(config);
+            repo.RemoveStudent(id);
         }
     }
 }
